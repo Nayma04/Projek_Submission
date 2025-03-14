@@ -10,7 +10,7 @@ st.write(
     """
 )
 
-day_df = pd.read_csv(r"C:/Users/Lenovo/Documents/Kuliah/Semester 6/Dicoding/penyewaan_sepeda.csv")
+day_df = pd.read_csv("Penyewaan_Sepeda.csv")
 
 datetime_columns = ["date"]
 day_df.sort_values(by="date", inplace=True)
